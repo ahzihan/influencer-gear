@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+:root{
+    --btn-color: #EB4D4B;
+}
+header{
+    margin-bottom: 50px;
+}
+main{
+    margin-bottom: 50px;
+}
+hr{
+    background-image: linear-gradient(lightgray, black, lightgray);
+    border-image-slice: 1;
+}
+.container{
+    max-width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items ul{
+    display: flex;
+}
+.menu-items ul li{
+    list-style-type: none;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+.prebook-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 30px;
+}
+.half-width h1{
+    font-size: 2em;
+}
+.prebook-img{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(203, 228, 236);
+    border-radius: 50%;
+}
+.default-size{
+    max-width: 90%;
+}
+.default-btn{
+    background-color: var(--btn-color);
+    color: white;
+    border-radius: 18px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.popular-collection{
+    margin-top: 50px;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.item{
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px;
+    box-shadow: 2px 4px 8px 10px #cac5c5;
+}
+.thambnail img{
+    width: 300px;
+    height: 256px;
+}
+.title h2{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.amount h3{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.details p{
+    margin: 0;
+    text-align: justify;
+}
+.rating{
+    font-size: 12px;
+}
+.fa-star.field{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: grey;
+}
